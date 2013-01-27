@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="com.github.astah.nanny.actionSet">
+         <menu
+               id="nanny"
+               label="%menu_group"
+               path="tool/nanny">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="com.github.astah.nanny.action.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/nanny/"
+               id="nanny">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
